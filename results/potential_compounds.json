@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Memantine",
+    "mechanism": "NMDA receptor antagonist that helps reduce glutamate excitotoxicity, which is elevated in Alzheimer's disease. It blocks excessive NMDA receptor activity without disrupting normal function."
+  },
+  {
+    "name": "Donepezil",
+    "mechanism": "Acetylcholinesterase inhibitor that increases acetylcholine levels in the brain by preventing its breakdown. It helps compensate for the loss of cholinergic neurons in Alzheimer's."
+  },
+  {
+    "name": "Curcumin",
+    "mechanism": "Natural polyphenol with anti-inflammatory and antioxidant properties. It reduces neuroinflammation through inhibition of NF\u03baB signaling and can bind to amyloid-beta, preventing aggregation."
+  },
+  {
+    "name": "Rapamycin",
+    "mechanism": "mTOR inhibitor that enhances autophagy, helping clear protein aggregates like amyloid-beta and tau. It attenuates neuroinflammation through regulation of microglial activation."
+  },
+  {
+    "name": "Sodium selenate",
+    "mechanism": "Activates PP2A phosphatase which dephosphorylates tau proteins, potentially reducing tau hyperphosphorylation and subsequent neurofibrillary tangle formation. 6. GV-971 (Sodium oligomannate): Novel oligosaccharide that remodels gut microbiota, reducing amino acid-shaped metabolites associated with neuroinflammation. It also appears to reduce amyloid-beta deposition. 7. ISRIB: Integrated stress response inhibitor that enhances translation and potentially reduces neuroinflammation while supporting synaptic function and memory consolidation. 8. NMZ (J147): Curcumin derivative that acts on multiple pathways, including mitochondrial function, inflammation, and oxidative stress. It can reduce amyloid and tau pathology in animal models."
+  },
+  {
+    "name": "Aducanumab",
+    "mechanism": "Monoclonal antibody that selectively targets aggregated forms of amyloid-beta, helping to clear amyloid plaques and potentially slow disease progression in early stages. 10. CMS121: Synthetic flavonoid that protects against lipid peroxidation and ferroptosis, preserving mitochondrial function and reducing oxidative damage."
+  }
+]

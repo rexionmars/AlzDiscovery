@@ -1,0 +1,23 @@
+2025-04-17 21:02:15,526 - AlzheimerDrugDiscovery - INFO - Pipeline de Descoberta de Medicamentos para Alzheimer inicializado
+2025-04-17 21:02:15,526 - AlzheimerDrugDiscovery - INFO - Iniciando pipeline completo de descoberta de medicamentos para Alzheimer
+2025-04-17 21:02:15,526 - AlzheimerDrugDiscovery - INFO - Carregando dados de expressão de data/GSE168137_expressionList.txt/GSE168137_expressionList.txt
+2025-04-17 21:02:15,868 - AlzheimerDrugDiscovery - INFO - Dados carregados com sucesso. 55449 genes, 192 amostras.
+2025-04-17 21:02:15,869 - AlzheimerDrugDiscovery - INFO - Distribuição de genótipos: {'BL6': 102, '5xFAD': 90}
+2025-04-17 21:02:15,869 - AlzheimerDrugDiscovery - INFO - Iniciando análise de expressão diferencial
+2025-04-17 21:02:15,877 - AlzheimerDrugDiscovery - INFO - Análise de expressão diferencial concluída. 50 genes up-regulados, 50 genes down-regulados.
+2025-04-17 21:02:15,877 - AlzheimerDrugDiscovery - INFO - Iniciando análise de vias biológicas
+2025-04-17 21:02:15,878 - AlzheimerDrugDiscovery - INFO - Análise de vias concluída. Top vias: Cytokine-mediated signaling, Tau protein binding, Apoptotic process
+2025-04-17 21:02:15,878 - AlzheimerDrugDiscovery - INFO - Consultando LLMs para identificação de compostos potenciais
+2025-04-17 21:02:15,878 - AlzheimerDrugDiscovery - INFO - Consultando modelo adrienbrault/biomistral-7b:Q2_K
+2025-04-17 21:02:16,176 - AlzheimerDrugDiscovery - WARNING - Erro ao consultar LLM: Extra data: line 2 column 1 (char 117)
+2025-04-17 21:02:18,437 - AlzheimerDrugDiscovery - WARNING - Erro ao consultar LLM: Extra data: line 2 column 1 (char 118)
+2025-04-17 21:02:20,704 - AlzheimerDrugDiscovery - WARNING - Erro ao consultar LLM: Extra data: line 2 column 1 (char 118)
+2025-04-17 21:02:20,704 - AlzheimerDrugDiscovery - ERROR - Falha após 3 tentativas de consultar o modelo adrienbrault/biomistral-7b:Q2_K
+2025-04-17 21:02:20,704 - AlzheimerDrugDiscovery - INFO - Consultando modelo meditron
+2025-04-17 21:02:26,156 - AlzheimerDrugDiscovery - WARNING - Erro ao consultar LLM: Extra data: line 2 column 1 (char 96)
+2025-04-17 21:02:45,183 - AlzheimerDrugDiscovery - WARNING - Erro ao consultar LLM: Extra data: line 2 column 1 (char 96)
+2025-04-17 21:02:49,605 - AlzheimerDrugDiscovery - WARNING - Erro ao consultar LLM: Extra data: line 2 column 1 (char 97)
+2025-04-17 21:02:49,605 - AlzheimerDrugDiscovery - ERROR - Falha após 3 tentativas de consultar o modelo meditron
+2025-04-17 21:02:49,605 - AlzheimerDrugDiscovery - INFO - Identificados 0 compostos únicos potenciais para tratamento
+2025-04-17 21:02:49,605 - AlzheimerDrugDiscovery - ERROR - Falha na identificação de compostos. Abortando pipeline.
+2025-04-17 21:02:49,605 - AlzheimerDrugDiscovery - ERROR - Pipeline falhou. Verifique o log para mais detalhes.
